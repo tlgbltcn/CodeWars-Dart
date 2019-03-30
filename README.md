@@ -1,22 +1,14 @@
-A library for Dart developers.
+# CodeWars Kata Solutions 
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+[![CodeWars](https://www.codewars.com/users/tolg/badges/large)](https://www.codewars.com/users/tolg "My Honor Badge")
 
-## Usage
 
-A simple usage example:
+My CodeWars profile: [@tolg](https://www.codewars.com/users/tolg)
 
-```dart
-import 'package:CodeWars_Dart/CodeWars_Dart.dart';
+Take the code initiation [CodeWars](http://codewars.com/r/8-QhcQ) to enlist and challenge yourself.
 
-main() {
-  var awesome = new Awesome();
-}
-```
+This repository contains the problems solved with Dart Language in Codewars.
 
-## Features and bugs
+The codes in the repo are for reference only. Copying and using does not benefit the developer. Remember that there are multiple ways to solve a problem. The solutions here may not be the best solutions.
 
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
+I think it's one of the best ways to learn a programming language.
