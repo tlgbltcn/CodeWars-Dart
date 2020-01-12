@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b16f65d6-a336-4229-831c-b11ac38f077b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/creational/builder.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/function_decleration.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern_in_dart/creational/singleton.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/CodeWars_Dart_example.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ConvertBooleanYesOrNo" beforeDir="false" afterPath="$PROJECT_DIR$/example/convertBooleanYesOrNo.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/EvenOrOdd8kyu" beforeDir="false" afterPath="$PROJECT_DIR$/example/evenOrOdd8kyu.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/Function1HelloWorld8kyu" beforeDir="false" afterPath="$PROJECT_DIR$/example/function1HelloWorld8kyu.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/Multiply8kyu" beforeDir="false" afterPath="$PROJECT_DIR$/example/multiply8kyu.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/Square(n)Sum8kyu" beforeDir="false" afterPath="$PROJECT_DIR$/example/square(n)Sum8kyu.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/CodeWars_Dart.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/CodeWars_Dart_base.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CodeWars_Dart_test.dart" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,15 +33,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design_patterns/creational/builder.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/evenOrOdd8kyu.dart">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,15 +52,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/android-feature-cosmos-mevduat/base/vkfCore/core_presentation/src/main/java/com/vakifbank/core/presentation/base/BaseInjectionActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CodeWars-Dart.iml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -91,12 +63,29 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/multiply8kyu.dart">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design_pattern_in_dart/creational/singleton.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="115" column="50" lean-forward="true" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/square(n)Sum8kyu.dart">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -123,10 +112,11 @@
         <option value="$PROJECT_DIR$/example/function_decleration.dart" />
         <option value="$PROJECT_DIR$/design_patterns/builder.dart" />
         <option value="$PROJECT_DIR$/design_patterns/creational/builder.dart" />
+        <option value="$PROJECT_DIR$/design_pattern_in_dart/creational/singleton.dart" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="970" />
@@ -138,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,12 +139,12 @@
             <path>
               <item name="CodeWars-Dart" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeWars-Dart" type="462c0819:PsiDirectoryNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern_in_dart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeWars-Dart" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeWars-Dart" type="462c0819:PsiDirectoryNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern_in_dart" type="462c0819:PsiDirectoryNode" />
               <item name="creational" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -161,17 +152,11 @@
               <item name="CodeWars-Dart" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CodeWars-Dart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeWars-Dart" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,6 +165,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553847837650" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -206,17 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.builder.dart">
-    <configuration name="CodeWars_Dart_example.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/example/CodeWars_Dart_example.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="builder.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/design_patterns/creational/builder.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.singleton.dart">
     <configuration name="convertBooleanYesOrNo.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/example/convertBooleanYesOrNo.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -232,13 +208,21 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="singleton.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/design_pattern_in_dart/creational/singleton.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="square(n)Sum8kyu.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/example/square(n)Sum8kyu.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.builder.dart" />
+        <item itemvalue="Dart Command Line App.singleton.dart" />
         <item itemvalue="Dart Command Line App.multiply8kyu.dart" />
-        <item itemvalue="Dart Command Line App.function_decleration.dart" />
-        <item itemvalue="Dart Command Line App.convertBooleanYesOrNo.dart" />
-        <item itemvalue="Dart Command Line App.CodeWars_Dart_example.dart" />
+        <item itemvalue="Dart Command Line App.square(n)Sum8kyu.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -258,17 +242,20 @@
       <workItem from="1577803002205" duration="12000" />
       <workItem from="1578228925556" duration="457000" />
       <workItem from="1578322927399" duration="83000" />
+      <workItem from="1578857769383" duration="448000" />
+      <workItem from="1578858283324" duration="704000" />
+      <workItem from="1578859371354" duration="3478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1750000" />
+    <option name="totallyTimeSpent" value="6380000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="970" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -277,7 +264,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35079727" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31084338" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -285,9 +272,9 @@
       <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32959184" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32880434" />
       <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32880434" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -312,6 +299,8 @@
     <entry file="file://$PROJECT_DIR$/test/CodeWars_Dart_test.dart" />
     <entry file="file://$PROJECT_DIR$/lib/CodeWars_Dart.dart" />
     <entry file="file://$PROJECT_DIR$/lib/src/CodeWars_Dart_base.dart" />
+    <entry file="file://$USER_HOME$/Downloads/android-feature-cosmos-mevduat/base/vkfCore/core_presentation/src/main/java/com/vakifbank/core/presentation/base/BaseInjectionActivity.kt" />
+    <entry file="file://$PROJECT_DIR$/design_patterns/creational/builder.dart" />
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -336,29 +325,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/android-feature-cosmos-mevduat/base/vkfCore/core_presentation/src/main/java/com/vakifbank/core/presentation/base/BaseInjectionActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeWars-Dart.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/example/function1HelloWorld8kyu.dart">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/multiply8kyu.dart">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/square(n)Sum8kyu.dart">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_patterns/creational/builder.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="135">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/multiply8kyu.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern_in_dart/creational/singleton.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="115" column="50" lean-forward="true" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
         </state>
       </provider>
     </entry>
