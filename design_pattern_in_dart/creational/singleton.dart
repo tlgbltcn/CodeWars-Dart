@@ -1,19 +1,20 @@
-class Problem extends Validate {
-  @override
-  bool get _value => super._value;
+// Singleton pattern is one of the creation design patterns where an application
+// wants to have one and only one instance of any class, in all possible scenarios
+// without any exceptional condition.
 
-  @override
+class Problem {
+  bool _value = false;
+
   setValue(bool value) {
     _value = value;
   }
 
-  @override
   getValue() => _value;
 }
 
 // Singleton created this factory constructor.
 
-class Log extends Validate {
+class Log {
   static final Log _log = Log._newInstance();
 
   factory Log() {
@@ -22,21 +23,18 @@ class Log extends Validate {
 
   Log._newInstance();
 
-  @override
-  bool get _value => super._value;
+  bool _value = false;
 
-  @override
   setValue(bool value) {
     _value = value;
   }
 
-  @override
   getValue() => _value;
 }
 
 // Singleton created static field with getter.
 
-class Helper extends Validate {
+class Helper {
   static final Helper _instance = Helper._newInstance();
 
   Helper._newInstance();
@@ -45,34 +43,28 @@ class Helper extends Validate {
     return _instance;
   }
 
-  @override
-  bool get _value => super._value;
+  bool _value = false;
 
-  @override
   setValue(bool value) {
     _value = value;
   }
 
-  @override
   getValue() => _value;
 }
 
 // Singleton created with static field.
 
-class Provider extends Validate {
+class Provider {
   static final Provider instance = Provider._newInstance();
 
   Provider._newInstance();
 
-  @override
-  bool get _value => super._value;
+  bool _value = false;
 
-  @override
   setValue(bool value) {
     _value = value;
   }
 
-  @override
   getValue() => _value;
 }
 
@@ -83,7 +75,10 @@ main() {
   var _problem2 = Problem();
   _problem2.getValue();
 
-  compareExecute(_problem1, _problem2);
+  print(identical(_problem1, _problem2));
+  print(_problem1 == _problem2);
+  print("problem value is " + _problem1.getValue().toString());
+  print("problem value is " + _problem2.getValue().toString());
 
   // factory implementation
   var _logInstance1 = Log();
@@ -91,7 +86,10 @@ main() {
   var _logInstance2 = Log();
   _logInstance2.getValue();
 
-  compareExecute(_logInstance1, _logInstance2);
+  print(identical(_logInstance1, _logInstance2));
+  print(_problem1 == _problem2);
+  print("log value is " + _logInstance1.getValue().toString());
+  print("log value is " + _logInstance2.getValue().toString());
 
   // static field with getter implementation
   var _helper1 = Helper.instance;
@@ -99,7 +97,10 @@ main() {
   var _helper2 = Helper.instance;
   _helper2.getValue();
 
-  compareExecute(_helper1, _helper2);
+  print(identical(_helper1, _helper2));
+  print(_problem1 == _problem2);
+  print("helpter value is " + _helper1.getValue().toString());
+  print("helpter value is " + _helper2.getValue().toString());
 
   // static field implementation
   var _provider1 = Provider.instance;
@@ -107,22 +108,8 @@ main() {
   var _provider2 = Provider.instance;
   _provider2.getValue();
 
-  compareExecute(_provider1, _provider2);
-}
-
-compareExecute(Validate obj1, Validate obj2) {
-  print(identical(obj1, obj2));
-  print(obj1 == obj2);
-  print("value is " + obj1.getValue().toString());
-  print("value is " + obj2.getValue().toString());
-}
-
-abstract class Validate {
-  bool _value = false;
-
-  setValue(bool value) {
-    _value = value;
-  }
-
-  getValue() => _value;
+  print(identical(_provider1, _helper2));
+  print(_problem1 == _problem2);
+  print("provider value is " + _provider1.getValue().toString());
+  print("provider value is " + _provider2.getValue().toString());
 }
