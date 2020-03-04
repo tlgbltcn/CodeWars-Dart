@@ -241,14 +241,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.builder.dart">
+  <component name="RunManager" selected="Dart Command Line App.extraPerfectNumber7kyu.dart">
     <configuration name="builder.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/design_pattern_in_dart/creational/builder.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="function_decleration.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/example/function_decleration.dart" />
+    <configuration name="extraPerfectNumber7kyu.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/example/extraPerfectNumber7kyu.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -269,6 +269,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.extraPerfectNumber7kyu.dart" />
         <item itemvalue="Dart Command Line App.builder.dart" />
         <item itemvalue="Dart Command Line App.singleton.dart" />
         <item itemvalue="Dart Command Line App.multiply8kyu.dart" />
